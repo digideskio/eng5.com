@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} !^www.eng5.com$
+RewriteRule ^(.*)$ http://www.eng5.com/$1 [R=301]
