@@ -415,8 +415,13 @@ body#home  #header {
 	height:110px;
 	float:left;
 	margin-right:30px;
+	padding-bottom:40px;
+}
+
+.footer-hosting {
 	padding-bottom:80px;
 }
+
 .footer-links ul li {
 	width:90px;
 	float:left;
