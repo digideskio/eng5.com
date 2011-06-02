@@ -142,6 +142,11 @@ body#home  #header {
 	padding-top:5px;
 }
 
+#logo span a, #logo span a:hover {
+	color:#E9E9E9;
+	text-decoration:none;
+}
+
 /* Top Icons */
 
 #topIcons {
