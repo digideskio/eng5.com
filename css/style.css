@@ -1,0 +1,465 @@
+/* MAIN STYLES
+-------------------------------------------*/
+* { margin: 0; padding: 0; }
+
+body,html {
+	font-weight:normal;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#333;
+	background:url(/images/bk_body.png);
+	line-height:145%;
+
+}
+
+ul {
+	list-style:none;
+}
+
+a {
+	text-decoration:none;
+	color:#0C8ACB;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+a:focus {
+	outline:none;
+}
+
+p {
+	margin:0 0 1.5em;
+}
+
+h1, h2, h3 {
+	letter-spacing:-1px;
+	margin-bottom:30px;
+}
+
+h1 span, h2 span {
+	color:#FD105D;
+}
+
+h1{
+	font-size:34px;
+}
+
+h2 {
+	font-size:26px;
+	margin-top:20px;
+}
+
+#colRight h2 {
+	margin:0 0 10px;
+	font-size:18px;
+	color:#FD105D;
+}
+
+/* LAYOUT STRUCTURE
+--------------------------------------------------*/
+body#home #mainWrapper {
+	background:url(/images/bk_mainwrapper.png) 0 0 repeat-x;
+}
+
+#mainWrapper {
+	background:url(/images/bk_mainwrapper_inner.png) 0 0 repeat-x;
+}
+
+#wrapper {
+	margin:0 auto;
+	width:940px;
+	background:url(/images/bk_wrapper.png) 50% 0 no-repeat;
+}
+
+body#home #wrapper {
+	background:url(/images/bk_wrapper_home.png) 50% -25px no-repeat;
+}	
+
+body#home  #header {
+	height:430px;
+	position:relative;
+}
+
+#header {
+	height:155px;
+	position:relative;
+}
+
+#content {
+	padding-bottom:40px;
+	overflow:hidden;
+	margin-top:35px;
+ 	text-shadow:#fff 1px 1px;
+}
+
+#colRight {
+	width:280px;
+	float:left;
+	margin-left:70px;
+}
+
+#colLeft {
+	width:590px;
+	float:left;
+}
+
+#footer {
+	background:#000 url(/images/bk_footer.jpg) 0 0 repeat-x;
+	color:#666;
+	overflow:hidden;
+	
+}
+
+#footer #innerFooter {
+	width:940px;
+	margin:0 auto;
+	padding:20px 0 30px;
+	overflow:hidden;
+	color:#79848E;
+}
+
+/* HEADER ELEMENTS
+--------------------------------------*/
+
+#logo {
+	position:absolute;
+	left:0;
+	top:25px;
+}
+
+#logo a img{
+	border:none;
+}
+
+#logo span {
+	font-size:13px;
+	text-transform:uppercase;
+	color:#E9E9E9;
+	font-weight:bold;
+	text-shadow:1px 1px #333;
+	padding-top:5px;
+}
+
+/* Top Icons */
+
+#topIcons {
+	position:absolute;
+	right:0;
+	top:30px;
+	width:200px;
+}
+
+#topIcons a {
+	color:#B1BBC4;
+}
+
+#topIcons a:hover {
+	color:#fff;
+	text-decoration:none;
+}
+
+#topIcons a.twitter, #topIcons a.github {
+	display:block;
+	background:url(/images/ico_github.png) 100% 50% no-repeat;
+	line-height:27px;
+	padding-right:30px;
+	width:40px;
+	font-size:11px;
+	float:right;
+}
+
+#topIcons a.twitter {
+	background:url(/images/ico_twitter.png) 100% 50% no-repeat;
+	margin-right:15px;
+}
+
+/* Top Menu */
+
+#topMenu {
+	position:absolute;
+	right:0;
+	top:75px;
+	background:url(/images/bk_topmenu.png);
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	padding:10px 15px;
+}
+
+#topMenu ul li {
+	float:left;
+	padding:0 18px;
+}
+
+#topMenu ul li a {
+	text-transform:uppercase;
+	color:#fff;
+	font-weight:bold;
+}
+
+#topMenu ul li a:hover {
+	text-decoration:none;
+	color:#FD105D;
+}
+
+/* CONTENT ELEMENTS
+--------------------------------------*/
+
+.alignleft {
+	float:left;
+	margin:5px 25px 5px 0;
+}
+
+.alignright {
+	float:right;
+	margin:5px 0 5px 25px;
+}
+
+/* Hommepage */
+
+#featuredProjects h1 {
+	text-align:center;
+	font-size:34px;
+	line-height:34px;
+	color:#FD105D;
+	margin-bottom:0;
+}
+
+#featuredProjects ul, #screenshots ul, #projects ul{
+	overflow:hidden;
+	margin-left:-20px;
+	margin-top:25px;
+}
+
+#featuredProjects ul li, #screenshots ul li, #projects ul li {
+	width:220px;
+	background:url(/images/shadow_featured.png) 0 100% no-repeat;
+	float:left;
+	padding-bottom:9px;
+	margin-left:20px;
+	margin-bottom:20px;
+	position:relative;
+}
+
+
+#featuredProjects  ul li .imgBox, #screenshots ul li .imgBox, #projects ul li .imgBox {
+	height:144px;
+	display:block;
+	padding:7px 7px 0;
+	background:#fff;
+}
+
+#featuredProjects  ul li .imgBox a img, #screenshots  ul li .imgBox a img, #projects  ul li .imgBox a img {
+	border:1px solid #fff;
+}
+
+#featuredProjects  ul li .imgBox a img, #screenshots  ul li .imgBox a:hover img, #projects  ul li .imgBox a:hover img{
+
+}
+
+#featuredProjects ul li .title, #screenshots ul li .title,  #projects ul li .title{
+	background:#fff;
+	padding:11px 8px 10px;
+	overflow:hidden;
+}
+
+#featuredProjects ul li .shortDesc, #screenshots ul li .shortDesc, #projects ul li .shortDesc{
+	background:#fff;
+	padding:0 12px 13px;
+	font-size:12px;
+	margin-top:-5px;
+	/*line-height:130%;*/
+	height:50px;
+	color:#666;
+}
+
+#projects ul li .title {
+	font-weight:bold;
+}
+
+/* Home Boxes */
+
+#homeBoxes {
+	overflow:hidden;
+	margin-left:-20px;
+}
+
+#homeBoxes .homeBox {
+	float:left;
+	width:290px;
+	margin-left:20px;
+}
+
+#homeBoxes .homeBox h2 {
+	background:url(/images/bk_home_h2.png) 0 100% no-repeat;
+	padding-bottom:20px;
+	margin-bottom:10px;
+	font-size:24px;
+	line-height:24px;
+}
+
+#homeBoxes .homeBox .readmore{
+	background:url(/images/bullet_arrow.png) 100% 50% no-repeat;
+	width:160px;
+	font-size:14px;
+	height:28px;
+	display:block;
+	line-height:28px;
+	font-weight:bold;
+	
+}
+
+/* Team Memebers */
+
+.teamMember {
+	background:url(/images/bk_team_member.png) 0 100% no-repeat;
+	padding-bottom:30px;
+	margin-bottom:30px;
+	overflow:hidden;
+}
+
+.teamMember .imgBox {
+	float:left;
+}
+
+.teamMember .imgBox img{
+	padding:8px 8px 20px;
+	background:#fff;
+}
+
+.teamMember .imgBox .shadow img {
+	background:none;
+	padding:0;
+}
+
+.teamMember .description {
+	float:left;
+	width:680px;
+	margin-left:30px;
+}
+
+.teamMember .description h2 {
+	font-weight:normal;
+	color:#0C8ACB;
+	margin-bottom:0;
+}
+
+.teamMember .description .title {
+	font-weight:bold;
+	font-size:14px;
+	color:#666;
+}
+
+#colRight #projShortList {
+	border-top:1px solid #ddd;
+	margin-bottom:25px;
+}
+
+#colRight #projShortList li {
+	padding:6px 0;
+	border-bottom:1px solid #ddd;
+	line-height:120%;
+}
+
+#colRight #projShortList li a {
+	text-transform:uppercase;
+	font-size:12px;
+	font-weight:bold;
+}
+
+#colRight #projShortList li span {
+	font-size:11px;
+}
+
+#colRight #projShortList li:hover {
+	background:#efefef;
+}
+
+
+/*  FOOTER ELEMENTS 
+----------------------------------------*/
+
+#innerFooter {
+	background:url(/images/bk_footer.jpg) 0 0 repeat-x;
+	overflow:hidden;
+	padding:35px 10px 40px;
+	color:#CCCCCC;
+}
+
+#innerFooter a{
+	color:#939393;
+	text-decoration:none;
+}
+
+#innerFooter a:hover{
+	color:#fff;
+}
+
+#innerFooter h3 {
+	font-size:16px;
+	color:#E5E5E5;
+	font-weight:bold;
+	margin:0 0 10px;
+}
+
+#innerFooter img {
+	border:none;
+}
+
+.footer-links, .footer-services, .footer-copyright, .footer-hosting {
+	width:190px;
+	background:url(/images/footer_separator.png) 100% 0 no-repeat;
+	padding-right:15px;
+	font-size:12px;
+	height:110px;
+	float:left;
+	margin-right:30px;
+	padding-bottom:40px;
+}
+.footer-links ul li {
+	width:90px;
+	float:left;
+	padding:2px 0;
+}
+
+.footer-services {
+	width:445px;
+	margin-right:10px;
+}
+
+.footer-services ul li{
+	padding:3px 0;	
+}
+
+.footer-services div span {
+	font-weight:bold;
+}
+
+#innerFooter .footer-services div span a {
+	color:#CCCCCC;
+	text-decoration:none;
+	font-weight: bold;
+}
+
+#innerFooter .footer-services div span a:hover {
+	color:#fff;
+}
+
+.footer-services div {
+	float:left;
+	padding-right:21px;
+}
+
+.footer-copyright {
+	text-align:right;
+	width:185px;
+	margin-right:0;
+	padding-right:0;
+	background:none;
+	line-height:180%;
+}
+
+.footer-copyright img{
+	margin-bottom:5px;
+}
