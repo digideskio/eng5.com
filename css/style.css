@@ -60,11 +60,11 @@ h2 {
 /* LAYOUT STRUCTURE
 --------------------------------------------------*/
 body#home #mainWrapper {
-	background:url(/images/bk_mainwrapper.png) 0 0 repeat-x;
+	background:url(/images/bk_mainwrapper.jpg) 0 0 repeat-x;
 }
 
 #mainWrapper {
-	background:url(/images/bk_mainwrapper_inner.png) 0 0 repeat-x;
+	background:url(/images/bk_mainwrapper_inner.jpg) 0 0 repeat-x;
 }
 
 #wrapper {
