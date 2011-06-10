@@ -109,22 +109,22 @@ body#home  #header {
 	margin-bottom:20px;
 }
 
-#content #colLeft ul {
+#content ul {
 	margin:0 0 15px 15px;
 }
 
-#content #colLeft ul li, #content #colLeft ol li  {
+#content ul li, #content ol li {
 	padding:5px 0 5px 20px;
 	background:url(/images/bullet_list.png) 0 8px no-repeat;
 }
 
-#content #colLeft ol li {
+#content ol li {
 	background:none;
 	padding-left:0;
 
 }
 
-#content #colLeft ol {
+#content ol {
 	margin:0 0 15px 35px;
 }
 
@@ -255,14 +255,17 @@ body#home  #header {
 }
 
 #featuredProjects ul, #screenshots ul, #projects ul{
+	margin:0;
 	overflow:hidden;
 	margin-left:-20px;
 	margin-top:25px;
 }
 
 #featuredProjects ul li, #screenshots ul li, #projects ul li {
-	width:220px;
-	background:url(/images/shadow_featured.png) 0 100% no-repeat;
+	margin:0;
+	padding:0;	
+	width:300px;
+	background:url(/images/shadow_300.png) 0 100% no-repeat;
 	float:left;
 	padding-bottom:9px;
 	margin-left:20px;
@@ -270,6 +273,10 @@ body#home  #header {
 	position:relative;
 }
 
+#screenshots ul li, #projects ul li { 
+	width:220px;
+	background:url(/images/shadow_featured.png) 0 100% no-repeat;
+}
 
 #featuredProjects  ul li .imgBox, #screenshots ul li .imgBox, #projects ul li .imgBox {
 	height:144px;
@@ -328,15 +335,13 @@ body#home  #header {
 }
 
 #homeBoxes .homeBox h2 a {
-	text-decoration:none;
 	color:#333;
 }
 
 #homeBoxes .homeBox h2 a:hover {
-	text-decoration:underline;
+	text-decoration:none;
 	color:#0C8ACB;
 }
-
 
 #homeBoxes .homeBox .readmore{
 	background:url(/images/bullet_arrow.png) 100% 50% no-repeat;
