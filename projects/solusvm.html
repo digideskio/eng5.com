@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Site5 Engineering Team
+title: Site5 Engineering Team - SolusVM - A Ruby Library for SolusVM
+github_name: solusvm
+project: SolusVM
 ---
 <link type="text/css" href="/css/prettyPhoto.css" rel="stylesheet" />
 <script type="text/javascript" src="/js/jquery-1.4.4.min.js"></script>
@@ -12,8 +14,11 @@ $(document).ready(function(){
 });
 </script>
 
-<h1>Project details: <span>Backstage</span></h1>
-  <p><img src="/images/sample_project_image.png" class="alignright" alt="Backstage" style="margin-top:-20px;" />
-  Lorem ipsum dolor sit etconsectetur adipisicing elit, sed do eiusmod tempor incididunt ut. Lorem ipsum dolor sit etconsectetur adipisicing elit, sed do eiusmod tempor incididunt ut. Lorem ipsum dolor sit etconsectetur adipisicing elit, sed do eiusmod tempor incididunt ut. Lorem ipsum dolor sit etconsectetur adipisicing elit, sed do eiusmod tempor incididunt ut.Lorem ipsum dolor sit etconsectetur adipisicing elit, sed do eiusmod tempor incididunt ut. Lorem ipsum dolor sit etconsectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
-  <p>Lorem ipsum dolor sit etconsectetur adipisicing elit, sed do eiusmod tempor incididunt ut. Lorem ipsum dolor sit etconsectetur adipisicing elit, sed do eiusmod tempor incididunt ut. Lorem ipsum dolor sit etconsectetur adipisicing elit, sed do eiusmod tempor incididunt ut. </p>
-  <p>Lorem ipsum dolor sit etconsectetur adipisicing elit, sed do eiusmod tempor incididunt ut. Lorem ipsum dolor sit etconsectetur adipisicing elit, sed do eiusmod tempor incididunt ut. Lorem ipsum dolor sit etconsectetur adipisicing elit, sed do eiusmod tempor incididunt ut. </p>
+<h1><span>{{page.project}}</span>: A Ruby Library for SolusVM</h1>
+<p>
+<img src="/images/display_code.png" class="alignright" alt="{{page.project}}" style="margin-top:-20px;" />
+We needed a library for integrating <a href="/projects/synco.html">Synco</a> with the SolusVM API. It has been 
+tested on MRI 1.8.7, MRI 1.9.2, MRI 1.9.3 Preview 1, Rubinius 2.0, and JRuby 1.6.2.
+</p>
+
+{% include can_i_contribute.html %}
