@@ -1,0 +1,24 @@
+---
+layout: default
+title: Site5 Engineering Team - Rainman - A Ruby implementation of the abstract factory pattern
+github_name: rainman
+project: Rainman
+---
+<link type="text/css" href="/css/prettyPhoto.css" rel="stylesheet" />
+<script type="text/javascript" src="/js/jquery-1.4.4.min.js"></script>
+<script type="text/javascript" src="/js/jquery.prettyPhoto.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#screenshots a[rel^='prettyPhoto']").prettyPhoto({animation_speed: 'normal',allow_resize:true,slideshow:false, social_tools:false, overlay_gallery: false});
+});
+</script>
+
+<h1><span>{{page.project}}</span>: A Ruby implementation of the abstract factory pattern</h1>
+<p>
+<img src="/images/display_code.png" class="alignright" alt="{{page.project}}" style="margin-top:-20px;" />
+At Site5 we do a lot of interactions with third party services. We wanted to able to access all of
+our third party APIs through one interface. <a href="https://github.com/site5/rainman">Rainman</a> allows us to do that.
+</p>
+
+{% include can_i_contribute.html %}
