@@ -10,13 +10,13 @@ project: Lumberg
 
 <script type="text/javascript">
 $(document).ready(function(){ 
-	$("#screenshots a[rel^='prettyPhoto']").prettyPhoto({animation_speed: 'normal',allow_resize:true,slideshow:false, social_tools:false, overlay_gallery: false});
+	$("#screenshots a[rel^='prettyPhoto']").prettyPhoto({animation_speed: 'normal',allow_resize:true,slideshow:false, social_tools:false, overlay_gallery: false, deeplinking: false});
 });
 </script>
 
 <h1><span>{{page.project}}</span>: A Ruby Library for WHM/cPanel</h1>
 <p>
-<img src="/images/display_code.png" class="alignright" alt="{{page.project}}" style="margin-top:-20px;" />
+<img src="/images/projects/lumberg.png" class="alignright" alt="{{page.project}}" style="margin-top:-20px;" />
 We needed a library for integrating <a href="/projects/synco.html">Synco</a> with WHM and cPanel. It has been 
 confirmed to work with ruby 1.8.7, 1.9.2, Rubinius, REE and JRuby 1.6.0 on cPanel 11.28+.
 </p>

@@ -10,13 +10,13 @@ project: MooMoo
 
 <script type="text/javascript">
 $(document).ready(function(){ 
-	$("#screenshots a[rel^='prettyPhoto']").prettyPhoto({animation_speed: 'normal',allow_resize:true,slideshow:false, social_tools:false, overlay_gallery: false});
+	$("#screenshots a[rel^='prettyPhoto']").prettyPhoto({animation_speed: 'normal',allow_resize:true,slideshow:false, social_tools:false, overlay_gallery: false, deeplinking: false});
 });
 </script>
 
 <h1><span>{{page.project}}</span>: A Ruby Library for OpenSRS</h1>
 <p>
-<img src="/images/display_code.png" class="alignright" alt="{{page.project}}" style="margin-top:-20px;" />
+<img src="/images/projects/moomoo.png" class="alignright" alt="{{page.project}}" style="margin-top:-20px;" />
 We needed a library for integrating <a href="/projects/synco.html">Synco</a> with OpenSRS. It has been 
 tested on MRI 1.8.7, MRI 1.9.2, MRI 1.9.3 Preview 1, Rubinius 2.0.0pre, and JRuby 1.6.2.
 </p>
